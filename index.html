@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>A read on where AI fits in HappyHOA's stack, for the US push</title>
+<meta name="description" content="Saw your booth last year at SS88 and you are back in the same slot, which means the US play is working. A read on where AI actually fits, and where it does not." />
+<meta name="robots" content="noindex" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="logo" href="https://www.happyhoa.com/" target="_blank" rel="noopener" aria-label="HappyHOA">
+      <img src="logo.svg" alt="HappyHOA" />
+    </a>
+    <div class="nav-meta">
+      <span class="pill"><span class="dot" aria-hidden="true"></span>Prepared for eMerge 2026, Booth SS88</span>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="wrap">
+      <div class="eyebrow">A working note for HappyHOA</div>
+      <h1>A read on where AI actually fits in HappyHOA's stack.</h1>
+      <p class="lede">6,000+ communities. 10 countries. $40M a month moving through the platform. The US push is real, and so is the question every founder is about to get at a Florida demo: where does AI live in this product, and where should it not.</p>
+
+      <div class="stats" aria-label="HappyHOA at a glance">
+        <div class="stat">
+          <div class="num">6,000+</div>
+          <div class="lbl">Communities on the platform</div>
+        </div>
+        <div class="stat">
+          <div class="num">10</div>
+          <div class="lbl">Countries live today</div>
+        </div>
+        <div class="stat">
+          <div class="num">$40M / mo</div>
+          <div class="lbl">Moving through the payments rail</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="split">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Three layers, drawn honestly before the AI ships.</h2>
+        <p>Every product like yours sits on three stacks at once. The teams that ship the AI layer cleanly are the teams that know which work belongs where. Here is how we would draw it for happyhoa.ai.</p>
+      </div>
+
+      <div class="split">
+        <article class="card">
+          <div class="cap">60%</div>
+          <div class="tag">Traditional code + database</div>
+          <h3>The mechanical layer.</h3>
+          <p>Ingest the building's documents. Expose them at the URL Florida SB 154 expects. Show a balance. Post a notice. This is Postgres and a clean API, not an LLM.</p>
+        </article>
+
+        <article class="card card--amber">
+          <div class="cap">30%</div>
+          <div class="tag">Rule-based logic</div>
+          <h3>The compliance layer.</h3>
+          <p>Reserve-study triggers. Late-fee schedules. Voting quorums. Pre-packaged Florida templates for SB 4-D, SB 154, 718 and the 2025 disclosure law. Boring work. Wins deals.</p>
+        </article>
+
+        <article class="card card--deep">
+          <div class="cap">10%</div>
+          <div class="tag">Genuine AI</div>
+          <h3>The resident-support layer.</h3>
+          <p>A grounded assistant that answers "what time does the pool close" from the pool rules, and "what section covers short-term rentals" from the bylaws. In Spanish or English. Built on the building's own documents.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="body-copy">
+        <h2>The honest part.</h2>
+
+        <p>You run 6,000+ communities across 10 countries and $40M a month flows through the platform. The US push is real. The booth was at SS88 last year and it is at SS88 again this year, which is a signal. The Florida play is the right play: new state disclosure laws for HOAs of 100+ parcels, a bilingual buyer base in Miami-Dade and Broward, and a national competitor (<a href="https://www.payhoa.com/" target="_blank" rel="noopener">PayHOA</a>) that just raised $27.5M and is still not mobile-first the way you are.</p>
+
+        <p>Here is the piece worth talking about. The eMerge booth copy says HappyHOA "leverages modern technology like AI to improve efficiency and transparency." The sub-brand at <a href="https://happyhoa.ai" target="_blank" rel="noopener">happyhoa.ai</a> is referenced in your own materials. The subdomain returns 404 today. That is the tension every scale-up lives with. The marketing has to run ahead of the product, and the product team has to decide which promises are real LLM work, which are rule-based compliance templates, and which are plain code on top of the payments rail you already have.</p>
+
+        <p>We think about every product like this in three layers. Roughly 60% of the problem is traditional code and database work (ingesting documents, exposing them at the right URL for Florida SB 154, showing a balance). Roughly 30% is rule-based logic (compliance templates, reserve-study triggers, late-fee schedules, voting quorum rules). Roughly 10% is genuine AI (a resident-support assistant grounded in the building's own documents, in Spanish or English, that knows the difference between "what time does the pool close" and "what section of the bylaws covers short-term rentals"). Teams that skip this split put an LLM where Postgres would do the job faster, cheaper, and with better guarantees. Teams that get this split right ship the AI layer without breaking the rest.</p>
+
+        <p>The case that maps closest is a 46-property short-term rental operator we worked with called Simple Lyfe Stays. Multi-unit, ops-heavy, sitting on a large operational document corpus, needing orchestration rather than a from-scratch ML build. We ran a workshop, drew the 60/30/10 split for their stack, and turned the founder's head into a playbook his team could run. Scoped sprint, methodology transfer, playbook delivery. The work compressed cross-property ops from a founder bottleneck to a shared operating system.</p>
+
+        <p>The methodology we would bring to the happyhoa.ai rollout is published work. It is called the Interpretable Context Methodology, out through <a href="https://dl.acm.org/journal/tiis" target="_blank" rel="noopener">ACM TiiS</a>, with the open repo at <a href="https://github.com/RinDig/Interpretable-Context-Methodology-ICM-" target="_blank" rel="noopener">github.com/RinDig/Interpretable-Context-Methodology-ICM-</a>. It is the argument for organizing the agent's context (bylaws, resolutions, minutes, budgets) as a layered filesystem so the AI knows what it knows and does not hallucinate answers about the pool hours. That matters for HOAs because trust is the whole business.</p>
+
+        <p>One more line for context. Jake also built an online community to 22,000 members in five weeks. Relevant because distribution to HOA boards and property managers is a solvable problem, and relevant because the instinct behind that build is the same instinct that shapes how we would ship the AI layer: short, honest, specific, built for a real audience.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Two things we already do that travel to HOA work.</h2>
+        <p>Scope language only. The numbers are workload and outcomes, not fees.</p>
+      </div>
+      <div class="proof">
+        <div class="box">
+          <h3>Simple Lyfe Stays (46 properties)</h3>
+          <p>Multi-unit operator, ops-heavy, large operational document corpus. Scoped sprint: workshop, 60/30/10 audit, playbook delivery. The founder's head turned into a shared operating system the team could run without him.</p>
+        </div>
+        <div class="box">
+          <h3>VigilOre (regulated compliance)</h3>
+          <p>Document-heavy compliance workflow, multi-agent approach. 160+ hours of manual compliance work collapsed to under five minutes. Same shape as the Florida HOA compliance template race.</p>
+        </div>
+      </div>
+
+      <div class="inline-links" aria-label="Referenced work">
+        <a href="https://arxiv.org/abs/2510.11742" target="_blank" rel="noopener">Ethics Engine on arXiv</a>
+        <a href="https://github.com/RinDig/AuditEngine" target="_blank" rel="noopener">AuditEngine repo</a>
+        <a href="https://github.com/RinDig/Interpretable-Context-Methodology-ICM-" target="_blank" rel="noopener">ICM repo</a>
+        <a href="https://www.happyhoa.com/post/hoa-management-software-essential-community-operations" target="_blank" rel="noopener">Your blog on the kitchen-table problem</a>
+      </div>
+
+      <p style="margin-top:14px; font-size: 0.9375rem; color:#4A5A52;">The Ethics Engine is a psychometric assessment tool for evaluating ideological and moral patterns in LLMs, which is the same evaluation rigor we would bring to a resident-facing assistant deployed in two languages across regulated communities.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="cta">
+        <h2>Thirty minutes with Matt.</h2>
+        <p>Bring one workflow you hate. The resident-support inbox. The Florida compliance template rollout. The demo call where the AI question lands and the answer gets quiet. We run a live orchestration audit and draw the 60/30/10 split on your real stack.</p>
+
+        <div class="cta-row">
+          <a class="btn" href="https://calendly.com/thecro-eduba/30min" target="_blank" rel="noopener">Book 30 minutes with Matt Creamer</a>
+          <div class="contact">
+            Matt Creamer, CRO at Eduba. <a href="https://calendly.com/thecro-eduba/30min" target="_blank" rel="noopener">calendly.com/thecro-eduba/30min</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap foot-row">
+    <div>Prepared by Eduba, <a href="https://eduba.io" target="_blank" rel="noopener">eduba.io</a>. For HappyHOA, eMerge 2026, Booth SS88.</div>
+    <div>Case references: <a href="https://www.happyhoa.com/" target="_blank" rel="noopener">happyhoa.com</a> &middot; <a href="https://www.comunidadfeliz.cl/" target="_blank" rel="noopener">comunidadfeliz.cl</a></div>
+  </div>
+</footer>
+
+</body>
+</html>
